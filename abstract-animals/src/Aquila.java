@@ -5,18 +5,19 @@ public class Aquila extends Animale {
         super(nome, eta);
     }
 
+    @Override
     // metodo normale (con corpo)
-    public void dormi() {
-        System.out.println("Zzz");
+    public String dormi() {
+        return "Zzz";
     };
 
     @Override
-    public void verso() {
-        System.out.println("verso dell'aquila");
+    public String verso() {
+        return "verso dell'aquila";
     }
 
     @Override
-    public void mangia() {
-        System.out.println("L'aquila mangia i conigli");
+    public String mangia() {
+        return "L'aquila mangia i conigli";
     }
 }

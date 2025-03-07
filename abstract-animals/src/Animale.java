@@ -12,13 +12,12 @@ public abstract class Animale {
     }
 
     // metodo normale (con corpo)
-    public void dormi() {
-        System.out.println("Zzz");
+    public String dormi() {
+        return "Zzz";
     };
 
     // metodi abstract (senza corpo)
-    public abstract void verso();
+    public abstract String verso();
 
-    public abstract void mangia();
-
+    public abstract String mangia();
 }

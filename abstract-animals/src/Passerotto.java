@@ -5,19 +5,19 @@ public class Passerotto extends Animale {
         super(nome, eta);
     }
 
+    @Override
     // metodo normale (con corpo)
-    public void dormi() {
-        System.out.println("Zzz");
+    public String dormi() {
+        return "Zzz";
     };
 
     @Override
-    public void verso() {
-        System.out.println("Piu piu");
+    public String verso() {
+        return "Piu piu";
     }
 
     @Override
-    public void mangia() {
-        System.out.println("Il passerotto mangia i lombrichi");
+    public String mangia() {
+        return "Il passerotto mangia i vermi";
     }
-
 }

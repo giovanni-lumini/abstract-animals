@@ -5,19 +5,19 @@ public class Cane extends Animale {
         super(nome, eta);
     }
 
+    @Override
     // metodo normale (con corpo)
-    public void dormi() {
-        System.out.println("Zzz");
+    public String dormi() {
+        return "Zzz";
     };
 
     @Override
-    public void verso() {
-        System.out.println("Bau bau");
+    public String verso() {
+        return "Bau bau";
     }
 
     @Override
-    public void mangia() {
-        System.out.println("Il cane mangia le crocchette");
+    public String mangia() {
+        return "Il cane mangia le crocchette";
     }
-
 }

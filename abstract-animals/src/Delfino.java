@@ -5,18 +5,19 @@ public class Delfino extends Animale {
         super(nome, eta);
     }
 
+    @Override
     // metodo normale (con corpo)
-    public void dormi() {
-        System.out.println("Zzz");
+    public String dormi() {
+        return "Zzz";
     };
 
     @Override
-    public void verso() {
-        System.out.println("verso del delfino");
+    public String verso() {
+        return "verso del delfino";
     }
 
     @Override
-    public void mangia() {
-        System.out.println("Il delfino mangia i pesci");
+    public String mangia() {
+        return "Il delfino mangia i pesci";
     }
 }
