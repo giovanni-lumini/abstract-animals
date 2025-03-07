@@ -1,7 +1,7 @@
-public class Passerotto extends Animale {
+public class Aquila extends Animale {
 
     // constructor
-    public Passerotto(String nome, int eta) {
+    public Aquila(String nome, int eta) {
         super(nome, eta);
     }
 
@@ -12,12 +12,11 @@ public class Passerotto extends Animale {
 
     @Override
     public void verso() {
-        System.out.println("Piu piu");
+        System.out.println("verso dell'aquila");
     }
 
     @Override
     public void mangia() {
-        System.out.println("Il passerotto mangia i lombrichi");
+        System.out.println("L'aquila mangia i conigli");
     }
-
 }
