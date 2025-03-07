@@ -1,12 +1,12 @@
 //abstract class
-public abstract class Animale {
+public abstract class AbstractAnimale {
 
     // istances
     public String nome;
     public int eta;
 
     // constructor
-    public Animale(String nome, int eta) {
+    public AbstractAnimale(String nome, int eta) {
         this.nome = nome;
         this.eta = eta;
     }

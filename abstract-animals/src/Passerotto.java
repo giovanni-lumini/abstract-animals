@@ -1,4 +1,4 @@
-public class Passerotto extends Animale implements Vola {
+public class Passerotto extends AbstractAnimale implements Vola {
 
     // constructor
     public Passerotto(String nome, int eta) {

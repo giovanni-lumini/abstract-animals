@@ -1,4 +1,4 @@
-public class Aquila extends Animale implements Vola {
+public class Aquila extends AbstractAnimale implements Vola {
 
     // constructor
     public Aquila(String nome, int eta) {

@@ -1,4 +1,4 @@
-public class Delfino extends Animale implements Nuota {
+public class Delfino extends AbstractAnimale implements Nuota {
 
     // constructor
     public Delfino(String nome, int eta) {

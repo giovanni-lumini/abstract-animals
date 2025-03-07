@@ -1,4 +1,4 @@
-public class Cane extends Animale {
+public class Cane extends AbstractAnimale {
 
     // constructor
     public Cane(String nome, int eta) {
