@@ -6,9 +6,14 @@ public class Main {
         Delfino delfinoNemo = new Delfino("Nemo", 2);
         Aquila aquilaPippo = new Aquila("Pippo", 4);
 
+        // methods from the abstract class
         System.out.println("Cane mentre dorme: " + caneBobby.dormi());
         System.out.println("Verso del passerotto: " + passerottoMinnie.verso());
         System.out.println("Cosa mangia il delfino? " + delfinoNemo.mangia());
         System.out.println("Aquila mentre dorme: " + aquilaPippo.dormi());
+
+        // methods from the interface class
+        System.out.println("Delfino mentre nuota: " + delfinoNemo.nuota());
+        System.out.println("Aquila mentre vola: " + aquilaPippo.vola());
     }
 }

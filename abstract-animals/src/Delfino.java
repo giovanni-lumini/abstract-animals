@@ -1,10 +1,11 @@
-public class Delfino extends Animale {
+public class Delfino extends Animale implements Nuota {
 
     // constructor
     public Delfino(String nome, int eta) {
         super(nome, eta);
     }
 
+    // abstract methods
     @Override
     // metodo normale (con corpo)
     public String dormi() {
@@ -19,5 +20,11 @@ public class Delfino extends Animale {
     @Override
     public String mangia() {
         return "Il delfino mangia i pesci";
+    }
+
+    // interface methods
+    @Override
+    public String nuota() {
+        return "Stò nuotando";
     }
 }

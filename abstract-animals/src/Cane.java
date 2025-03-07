@@ -5,6 +5,7 @@ public class Cane extends Animale {
         super(nome, eta);
     }
 
+    // abstract methods
     @Override
     // metodo normale (con corpo)
     public String dormi() {
