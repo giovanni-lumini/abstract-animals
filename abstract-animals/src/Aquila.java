@@ -25,6 +25,6 @@ public class Aquila extends AbstractAnimale implements Vola {
     // interface methods
     @Override
     public String vola() {
-        return "Stò volando";
+        return "Stò volando alto";
     }
 }
